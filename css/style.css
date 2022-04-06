@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+:root {
+    --background: rgb(37, 37, 37);
+    --blue: #0066ff;
+	  --green: #78ff60;
+    --maincolor: #48dbfb;
+
+    background-color: var(--background);
+}
+
+.content {
+	display: none;
+}
+ 
+* {
+    margin: 0;
+	padding: 0;
+    height: auto;
+	margin-bottom: 0px;
+	text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	background-color: var(--background);
+}
+
+::selection {
+	background-color: var(--blue);
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #FFF;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--maincolor);
+}
+
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+	width: 100%;
+	color: #fff;
+}
+
+.content {
+	background-color: var(--background);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.content .space {
+    margin-right: 15px;
+}
+
+.content .headbutton h1 {
+	font-size: 50px;
+}
+
+.content .headbutton {
+  margin-top: 35vh;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+  margin-bottom: 10px;
+}
+
+.content .section1 h1 {
+	font-size: 50px;
+}
+
+.content .section1 {
+  margin-top: 20%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+  margin-bottom: 10px;
+}
+
+.content .section2 {
+	margin-top: 1px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.content .section3 {
+	margin-top: 1px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.content .smallbuttons {
+	margin-top: 1px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.content .smallbuttons a {
+    color: #fff;
+	font-size: 20px;
+	margin: 0 10px;
+	transition: 0.2s linear;
+}
+
+.content .smallbuttons a:hover {
+    color: var(--maincolor);
+}
+
+.content .buttons {
+	margin-top: 20px;
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.content .buttons a {
+	margin: 12px 15px;
+	display: inline-block;
+	color: var(--maincolor);
+	font-size: 14px;
+	width: 170px;
+	border: 1px solid var(--maincolor);
+	padding: 14px 0;
+	border-radius: 6px;
+	transition: 0.2s linear;
+}
+
+.content .buttons a:hover {
+	background-color: var(--maincolor);
+	color: #fff;
+}
+
+.content .greenbuttons {
+	margin-top: 20px;
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.content .greenbuttons a {
+	margin: 12px 15px;
+	display: inline-block;
+	color: var(--green);
+	font-size: 14px;
+	width: 170px;
+	border: 1px solid var(--green);
+	padding: 14px 0;
+	border-radius: 6px;
+	transition: 0.2s linear;
+}
+
+.content .greenbuttons a:hover {
+	background-color: var(--green);
+	color: #fff;
+}
