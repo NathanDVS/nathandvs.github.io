@@ -108,7 +108,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: solid 3px #3a3a3c;
         width: 58px;
         height: 58px;
         border-radius: 10px;
@@ -121,21 +120,19 @@
         margin-right: 5px;
       }
       .letter.correct {
-        border: solid 3px #22c73b;
         background: #22c73b;
         border-color: #22c73b;
       }
       .letter.semi {
-        border: solid 3px #debd28;
         background: #debd28;
         border-color: #debd28;
       }
       .letter.incorrect {
-        border: solid 3px #3a3a3c;
         background: #3a3a3c;
         border-color: #3a3a3c;
       }
       .word:not(.attempted) .letter:not(:empty) {
+        border: solid 3px #3a3a3c;
         border-color: #565758;
       }
       .game-over .keyboard {
